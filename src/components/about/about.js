@@ -39,9 +39,7 @@ export default class About extends Component {
   </div>
 </section>
 }
-      <header id="home">
-        ....
-      </header>
+     
       </React.Fragment>
     );
   }

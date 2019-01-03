@@ -86,9 +86,7 @@ export default class Contact extends Component {
   </div>
 </section>
 }
-      <header id="home">
-        ....
-      </header>
+
       </React.Fragment>
     );
   }

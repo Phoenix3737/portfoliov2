@@ -37,9 +37,7 @@ export default class Testimonials extends Component {
   </div>  {/* text-container ends */}
 </section>
 }
-      <header id="home">
-        ....
-      </header>
+
       </React.Fragment>
     );
   }

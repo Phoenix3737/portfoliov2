@@ -24,9 +24,7 @@ export default class Footer extends Component {
   </div>
 </footer>
 }
-      <header id="home">
-        ....
-      </header>
+
       </React.Fragment>
     );
   }
