@@ -52,7 +52,7 @@ header .banner {
    vertical-align: middle;
    margin: 0 auto;
    width: 85%;
-   padding-bottom: 30px;s
+   padding-bottom: 30px;
    text-align: center;
 }
 
@@ -75,12 +75,18 @@ header .banner-text h3 span,
 header .banner-text h3 a {
    color: #fff;
 }
+header .banner-text h3 span,
+header .banner-text h3 a:hover {
+   color: #11ABB0;
+}
 header .banner-text hr {
    width: 60%;
    margin: 18px auto 24px auto;
    border-color: #2F2D2E;
    border-color: rgba(150, 150, 150, .1);
 }
+
+
 
 /* header social links */
 header .social {
@@ -207,8 +213,7 @@ ul#nav li.current a { color: #F06000; }
 }
 #about .profile-pic {
    position: relative;
-   width: 120px;
-   height: 120px;
+   width: 100%;
    border-radius: 100%;
 }
 #about .contact-details { width: 41.66667%; }
@@ -326,32 +331,32 @@ ul#nav li.current a { color: #F06000; }
 }
 
 .html5 {
-   width: 60%;
+   width: 90%;
    -moz-animation: html5 2s ease;
    -webkit-animation: html5 2s ease;
 }
 .css {
-   width: 55%;
+   width: 80%;
    -moz-animation: css 2s ease;
    -webkit-animation: css 2s ease;
 }
 .javascript {
-   width: 50%;
+   width: 70%;
    -moz-animation: javascript 2s ease;
    -webkit-animation: javascript 2s ease;
 }
 .react {
-   width: 90%;
+   width: 60%;
    -moz-animation: react 2s ease;
    -webkit-animation: react 2s ease;
 }
 .photoshop {
-   width: 80%;
+   width: 90%;
    -moz-animation: photoshop 2s ease;
    -webkit-animation: photoshop 2s ease;
 }
 .jquery {
-   width: 50%;
+   width: 70%;
    -moz-animation: jquery 2s ease;
    -webkit-animation: jquery 2s ease;
 }
@@ -871,6 +876,22 @@ call-to-action .button {
    margin-left: 26%;
 }
 #contact button.submit:hover {
+	color: #0D0D0D;
+	background: #fff;
+}
+#contact button.submit-btn {
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	color:#fff;
+   background: #0D0D0D;
+	border: none;
+   cursor: pointer;
+   height: auto;
+   display: inline-block;
+	border-radius: 3px;
+   margin-left: 26%;
+}
+#contact button.submit-btn:hover {
 	color: #0D0D0D;
 	background: #fff;
 }
