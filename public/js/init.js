@@ -138,7 +138,7 @@
 ------------------------------------------------------*/
 
    $('form#contactForm button.submit').click(function() {
-
+      console.log("success");
       $('#image-loader').fadeIn();
 
       var contactName = $('#contactForm #contactName').val();
@@ -153,8 +153,10 @@
 
 	      type: "POST",
 	      url: "inc/sendEmail.php",
+	      // url: "groves999@gmail.com",
 	      data: data,
 	      success: function(msg) {
+            
 
             // Message was sent
             if (msg == 'OK') {

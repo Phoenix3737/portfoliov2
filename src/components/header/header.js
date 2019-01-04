@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Text from '../../components/text/text.js';
 export default class Header extends Component {
   render() {
     let resumeData = this.props.resumeData;
@@ -19,22 +20,22 @@ export default class Header extends Component {
   </nav> 
   <div className="row banner">
     <div className="banner-text">
-      <h1 className="responsive-headline">I am {resumeData.name}.</h1>
-      <h3>I'm a {resumeData.role}.{resumeData.roleDescription} Let's <a className="smoothscroll" href="#about">start scrolling </a>
-        and learn more <a className="smoothscroll" href="#about">about me</a>.</h3>
-      <hr />
-      <ul className="social">
-        {/* <li><a href="#"><i className="fa fa-facebook" /></a></li>
-        <li><a href="#"><i className="fa fa-twitter" /></a></li>
-        <li><a href="#"><i className="fa fa-google-plus" /></a></li> */}
+    <Text />
+      {/* <h1 className="responsive-headline">Hi,</h1>
+      <h1 className="responsive-headline">I'm {resumeData.name},</h1>
+      <h1 className="responsive-headline">{resumeData.role} .</h1> */}
+      {/* <h3>I'm a {resumeData.role}.{resumeData.roleDescription} Let's <a className="smoothscroll" href="#about">start scrolling </a>
+        and learn more <a className="smoothscroll" href="#about">about me</a>.</h3> */}
+      {/* <h3>Front End Developer | CSS | Javascript | React </h3> */}
+      <h3 className="fade"><a className="smoothscroll" href="#about">Start scrolling </a>to learn more <a className="smoothscroll" href="#about">about me</a>.</h3>
+      
+      <ul className="social fade">
         <li><a href="https://www.linkedin.com/in/mark-groves-45289a68/" target="_blank"><i className="fa fa-linkedin fa-2x" /></a></li>
         <li><a href="https://github.com/Phoenix3737" target="_blank"><i className="fa fa-github fa-2x" /></a></li>
-        {/* <li><a href="#"><i className="fa fa-dribbble" /></a></li>
-        <li><a href="#"><i className="fa fa-skype" /></a></li> */}
       </ul>
     </div>
   </div>
-  <p className="scrolldown">
+  <p className="scrolldown fade">
     <a className="smoothscroll" href="#about"><i className="icon-down-circle" /></a>
   </p>
 </header>

@@ -1,28 +1,7 @@
-// Dependencies
 import React, { Component } from 'react';
-// Externals
-import Field from './field';
-import Button from './button';
+import Form from './form';
 
-
-export default class extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      name: '',
-      email: '',
-      message: '',
-    };
-    // To ensure 'this' when calling 'this.updateField' refers to Form and not Field, we do:
-    this.updateField = this.updateField.bind(this);
-  }
-
-  // Field could be 'name', 'email', or 'message'
-  // Value is whatever the user types into the input field.
-  updateField(field, value) {
-    this.setState({ [field]: value });
-  }
-
+export default class Contact extends Component {
   render() {
     return (
       <React.Fragment>
@@ -41,44 +20,28 @@ export default class extends Component {
       {/* form */}
       <form action method="post" action="send_form_email.php" id="contactForm" name="contactForm">
         <fieldset>
-        <div>
-        {/* Name field */}
-        <Field
-          label="Name"
-          onChange={(event) => this.updateField('name', event.target.value)}
-          value={this.state.name}
-        />
-        {/* Email field */}
-        <Field
-          label="Email"
-          onChange={(event) => this.updateField('email', event.target.value)}
-          value={this.state.email}
-        />
-        <Field
-          label="Subject"
-          onChange={(event) => this.updateField('email', event.target.value)}
-          value={this.state.email}
-        />
-        {/* Message textarea */}
-        <Field
-          label="Message"
-          onChange={(event) => this.updateField('message', event.target.value)}
-          /* This should be written like 'textarea' */
-          textarea={true}
-          value={this.state.message}
-        />
-        {/* Submit button */}
-        <Button
-          email="groves999@gmail.com"
-          formValues={this.state}
-        />
-      </div>
-          {/* <div>
+          <div>
+            <label htmlFor="contactName">Name <span className="required">*</span></label>
+            <input type="text" defaultValue size={35} id="contactName" name="contactName" />
+          </div>
+          <div>
+            <label htmlFor="contactEmail">Email <span className="required">*</span></label>
+            <input type="text" defaultValue size={35} id="contactEmail" name="contactEmail" />
+          </div>
+          <div>
+            <label htmlFor="contactSubject">Subject</label>
+            <input type="text" defaultValue size={35} id="contactSubject" name="contactSubject" />
+          </div>
+          <div>
+            <label htmlFor="contactMessage">Message <span className="required">*</span></label>
+            <textarea cols={50} rows={15} id="contactMessage" name="contactMessage" defaultValue={""} />
+          </div>
+          <div>
             <button className="submit">Submit</button>
             <span id="image-loader">
               <img alt src="images/loader.gif" />
             </span>
-          </div> */}
+          </div>
         </fieldset>
       </form> {/* Form End */}
       {/* contact-warning */}

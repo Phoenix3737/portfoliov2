@@ -6,27 +6,22 @@ export default class About extends Component {
       {<section id="about">
   <div className="row">
     <div className="three columns">
-      <img className="profile-pic" src="images/profilepic.jpg" alt />
+      <img className="profile-pic" src="images/profilePic_2.png" alt />
     </div>
     <div className="nine columns main-col">
       <h2>About Me</h2>
-      <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-        eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
-        voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
-        voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,
-        sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
-        Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam.
+      <p>I have a passion for coding and learning new programming technologies. It gives me great satisfaction when I can create something apealing, usable art, 
+        for people interact with. I wholeheartedly believe that it makes a difference in peoples’ lives when we build something that saves time and prevents 
+        stressful tasks. When I'm not coding I can be found spending time with my kids, drawing, exercising, building something, repairing something or 
+        doing anything outdoors.
       </p>
       <div className="row">
         <div className="columns contact-details">
           <h2>Contact Details</h2>
           <p className="address">
-            <span>Jonathan Doe</span><br />
-            <span>1600 Amphitheatre Parkway<br />
-              Mountain View, CA 94043 US
-            </span><br />
-            <span>(123)456-7890</span><br />
-            <span>anyone@website.com</span>
+            <span>Mark Groves</span><br />
+            <span>(912)604-8114</span><br />
+            <span>groves999@gmail.com</span>
           </p>
         </div>
         <div className="columns download">
