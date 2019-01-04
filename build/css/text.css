@@ -1,4 +1,4 @@
-.unbreakable {
+  .unbreakable {
     font-family: 'Anton', sans-serif;
     line-height: 1;
     letter-spacing: -1px;
@@ -31,7 +31,6 @@
   
   .unbreakable-text {
     font-family: 'Anton', Helvetica, sans-serif;
-    /* font-size: 40px; */
     text-transform: uppercase;
     opacity: 0;
     color: #ffffff;
