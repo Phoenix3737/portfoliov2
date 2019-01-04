@@ -11,7 +11,7 @@ export default class About extends Component {
     <div className="nine columns main-col">
       <h2>About Me</h2>
       <p>I have a passion for coding and learning new programming technologies. It gives me great satisfaction when I can create something apealing, usable art, 
-        for people interact with. I wholeheartedly believe that it makes a difference in peoples’ lives when we build something that saves time and prevents 
+        for people to interact with. I wholeheartedly believe that it makes a difference in peoples’ lives when we build something that saves time and prevents 
         stressful tasks. When I'm not coding I can be found spending time with my kids, drawing, exercising, building something, repairing something or 
         doing anything outdoors.
       </p>

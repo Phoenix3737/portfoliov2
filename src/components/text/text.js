@@ -4,7 +4,7 @@ export default class Text extends Component {
     return (
       <React.Fragment>
         {
-          <div className="unbreakable-container ">
+          <div className="unbreakable-container">
             <div className="unbreakable">
               <span className="hi unbreakable-text">Hi, </span>
               <span className="im unbreakable-text">I'm </span>
