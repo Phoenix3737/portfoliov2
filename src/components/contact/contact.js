@@ -28,56 +28,78 @@ export default class Contact extends Component {
         {
           <section id="contact">
             <div className="row section-head">
-              <div className="two columns header-col">
-                <h1>
-                  <span>Get In Touch.</span>
-                </h1>
-              </div>
-              <div className="ten columns">
+              <div className="twelve columns">
                 <p className="lead">
                   Have a question or want to work together? Drop me a line
                   anytime.
                 </p>
               </div>
             </div>
-              
-              <div className="row">
-                  <div className="eight columns">
-                    <form method="POST" action="https://formspree.io/groves999@gmail.com">
-                      <div>
-                        <label for="contactMessage">Name <span class="required">*</span></label>
-                        <input type="text" name="name" placeholder="Elon Musk"></input>
-                      </div>
-                      <div>
-                        <label for="contactMessage">Email <span class="required">*</span></label>
-                        <input type="email" name="email" placeholder="Elon@Telsa.com"></input>
-                      </div>
-                      <div>
-                        <label for="contactMessage">Subject</label>
-                        <input type="text" name="subject" placeholder="I want to hire you!"></input>
-                      </div>
-                      <div>
-                        <label for="contactMessage">Message <span class="required">*</span></label>
-                        <textarea name="message" placeholder="What would you like to say?"></textarea>
-                      </div>
-                      <button type="submit">Send Message</button>
-                    </form>
-                </div>
-              
-               
-                  <aside className="four columns footer-widgets">
-                    <div className="widget widget_contact">
-                      <h4>Email and Phone</h4>
-                      <p className="address">
-                        Mark Groves
-                        <br />
-                        <span>(912) 604-8114</span>
-                        <br />
-                        <span>groves999@gnail.com</span>
-                      </p>
-                    </div>
-                  </aside>
+
+            <div className="row">
+              <div className="eight columns">
+                <form
+                  method="POST"
+                  action="https://formspree.io/groves999@gmail.com"
+                >
+                  <div>
+                    <label htmlFor="contactMessage">
+                      Name <span className="required">*</span>
+                    </label>
+                    <input type="text" name="name" placeholder="Elon Musk" />
+                  </div>
+                  <div>
+                    <label htmlFor="contactMessage">
+                      Email <span className="required">*</span>
+                    </label>
+                    <input
+                      type="email"
+                      name="email"
+                      placeholder="Elon@Telsa.com"
+                    />
+                  </div>
+                  <div>
+                    <label htmlFor="contactMessage">Subject</label>
+                    <input
+                      type="text"
+                      name="subject"
+                      placeholder="I want to hire you!"
+                    />
+                  </div>
+                  <div>
+                    <label htmlFor="contactMessage">
+                      Message <span className="required">*</span>
+                    </label>
+                    <textarea
+                      name="message"
+                      placeholder="What would you like to say?"
+                    />
+                  </div>
+                  <button className="submit-btn" type="submit">
+                    Submit
+                  </button>
+                </form>
               </div>
+
+              <aside className="four columns footer-widgets">
+                <div className="widget widget_contact">
+                  <h4>Email and Phone</h4>
+                  <p className="address">
+                    Mark Groves
+                    <br />
+                    <span>(912) 604-8114</span>
+                    <br />
+                    <span>groves999@gmail.com</span>
+                  </p>
+                </div>
+                <div>
+                <img className="logo" src="images/mg-logo.png" alt="Mark Groves" />
+                  {/* <h1>
+                    <span>Get In Touch.</span>
+                  </h1> */}
+                </div>
+              </aside>
+            </div>
           </section>
         }
       </React.Fragment>
@@ -85,10 +107,8 @@ export default class Contact extends Component {
   }
 }
 
-
-
-
-                {/* <form
+{
+  /* <form
                   method="post"
                   action=""
                   id="contactForm"
@@ -148,6 +168,5 @@ export default class Contact extends Component {
                       </span>
                     </div>
                   </fieldset>
-                </form> */}
-
-         
+                </form> */
+}

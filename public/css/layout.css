@@ -212,9 +212,10 @@ ul#nav li.current a { color: #F06000; }
    color: #7A7A7A;
 }
 #about .profile-pic {
+   background-color: #444444;
    position: relative;
    width: 100%;
-   border-radius: 100%;
+   border-radius: 4%;
 }
 #about .contact-details { width: 41.66667%; }
 #about .download {
@@ -791,14 +792,16 @@ call-to-action .button {
 /* ------------------------------------------------------------------ */
 /* h. Contact Section
 /* ------------------------------------------------------------------ */
-
+.logo {
+   width: 86%;
+}
 #contact {
    background: #191919;
    padding-top: 96px;
    padding-bottom: 102px;
-   color: #636363;
+   color: #ebeeee;
 }
-#contact .section-head { margin-bottom: 42px; }
+#contact .section-head { margin-bottom: 20px; }
 
 #contact a, #contact a:visited  { color: #11ABB0; }
 #contact a:hover, #contact a:focus { color: #fff; }
@@ -814,22 +817,33 @@ call-to-action .button {
 #contact h1:before {
    font-family: 'FontAwesome';
    content: "\f0e0";
-	padding-right: 10px;
-	font-size: 72px;
+	font-size: 180px;
    line-height: 72px;
    text-align: left;
    float: left;
    color: #ebeeee;
+   padding-left: 35px;
 }
 
 #contact h4 {
-   font: 16px/24px 'opensans-bold', sans-serif;
+   font: 24px/24px 'opensans-bold', sans-serif;
    color: #EBEEEE;
    margin-bottom: 6px;
+   margin-left: 24px;
 }
 #contact p.lead {
+   font: 31px/36px 'opensans-light', sans-serif;
+   /* padding-right: 3%; */
+   font: 28px/24px 'opensans-bold', sans-serif;
+   color: #EBEEEE;
+   margin-bottom: 56px;
+}
+
+#contact p.address {
    font: 18px/36px 'opensans-light', sans-serif;
-   padding-right: 3%;
+   text-align: center;
+   width: 250px;
+   margin-bottom: 50px;
 }
 #contact .header-col { padding-top: 6px; }
 
@@ -842,20 +856,20 @@ call-to-action .button {
    color: #EBEEEE;
 	display: inline-block;
 	float: left;
-   width: 26%;
+   width: 15%;
 }
 #contact input,
 #contact textarea,
 #contact select {
-   padding: 18px 20px;
+   padding: 14px 20px;
 	color: #eee;
 	background: #373233;
-	margin-bottom: 42px;
+	margin-bottom: 10px;
 	border: 0;
 	outline: none;
    font-size: 15px;
-   line-height: 24px;
-   width: 65%;
+   line-height: 18px;
+   width: 75%;
 }
 #contact input:focus,
 #contact textarea:focus,
@@ -889,7 +903,7 @@ call-to-action .button {
    height: auto;
    display: inline-block;
 	border-radius: 3px;
-   margin-left: 26%;
+   margin-left: 15%;
 }
 #contact button.submit-btn:hover {
 	color: #0D0D0D;
