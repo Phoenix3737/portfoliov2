@@ -166,10 +166,10 @@ export default class Portfolio extends Component {
       <div className="description-box">
         <h4>Mood Shot</h4>
         <p>A virtual bartender that analysizes your photo and then suggests the best drink for your mood.</p>
-        <span className="categories"><i className="fa fa-tag" />Javascript | Face++ | API</span>
+        <span className="categories"><i className="fa fa-tag" />React | Face++ | API</span>
       </div>
       <div className="link-box">
-        <a href="https://phoenix3737.github.io/moodShot/" target="_blank">Details</a>
+        <a href="https://phoenix3737.github.io/moodShotv3/" target="_blank">Details</a>
         <a className="popup-modal-dismiss">Close</a>
       </div>
     </div>{/* modal-04 End */}
