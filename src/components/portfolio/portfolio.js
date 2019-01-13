@@ -58,7 +58,7 @@ export default class Portfolio extends Component {
               <div className="overlay">
                 <div className="portfolio-item-meta">
                   <h5>Virtual Bartender</h5>
-                  <p>Javascript | Face++ | API</p>
+                  <p>React | Face++ | API</p>
                 </div>
               </div>
               <div className="link-icon"><i className="icon-plus" /></div>
