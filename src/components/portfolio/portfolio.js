@@ -58,7 +58,7 @@ export default class Portfolio extends Component {
               <div className="overlay">
                 <div className="portfolio-item-meta">
                   <h5>Virtual Bartender</h5>
-                  <p>React | Face++ | API</p>
+                  <p>React | Face++ | Axios</p>
                 </div>
               </div>
               <div className="link-icon"><i className="icon-plus" /></div>
@@ -166,7 +166,7 @@ export default class Portfolio extends Component {
       <div className="description-box">
         <h4>Mood Shot</h4>
         <p>A virtual bartender that analysizes your photo and then suggests the best drink for your mood.</p>
-        <span className="categories"><i className="fa fa-tag" />React | Face++ | API</span>
+        <span className="categories"><i className="fa fa-tag" />React | Face++ | Axios</span>
       </div>
       <div className="link-box">
         <a href="https://phoenix3737.github.io/moodShotv3/" target="_blank">Details</a>

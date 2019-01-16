@@ -14,11 +14,11 @@ export default class Resume extends Component {
               <div className="row item">
                 <div className="twelve columns">
                   <h3>Georgia Institute of Technology</h3>
-                  <p className="info">Certification in Full Stack Web Development <span>•</span> <em className="date">April 2018 - May 2018</em></p>
+                  <p className="info">Certification in Full Stack Web Development <span>•</span> <em className="date">April 2018 - June 2018</em></p>
                   <p>Completed a fast-paced, immersive curriculum, and learned the skills needed to become proficient in front-end and back-end technologies including
                     HTML5, CSS3, JavaScript, jQuery, C#, ASP.Net, Bootstrap, React.js, Express.js, Node.js, MongoDB, MySQL, Command Line and Git.
                   </p>
-                  <p>Since graduation I've focused on becoming proficient in Javascript and React.
+                  <p>Since graduation I've focused on becoming more proficient in Javascript and React.
                   </p>
                 </div>
               </div> {/* item end */}

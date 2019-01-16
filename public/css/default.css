@@ -808,9 +808,9 @@ properly.
 
 /* fade in text */
 
-.fade {
+/* .fade {
    opacity:0;
-   opacity: 1 \9; /*just in case ie*/
+   opacity: 1 \9;
    -webkit-animation:fadeIn ease-in 1;
    -moz-animation:fadeIn ease-in 1;
    animation:fadeIn ease-in 1;
@@ -826,12 +826,12 @@ properly.
    -webkit-animation-delay: 6s;
    -moz-animation-delay: 6s;
    animation-delay: 6s;
- }
+ } */
  
  /* Keyframes for the fade-in */
- @-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+ /* @-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
  @-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
- @keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+ @keyframes fadeIn { from { opacity:0; } to { opacity:1; } } */
 
 /* .fade-out {
    opacity:1;
