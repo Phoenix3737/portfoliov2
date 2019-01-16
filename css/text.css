@@ -1,17 +1,24 @@
-  .unbreakable {
+/* delays any animation from starting until the content loads, preventing timing issues */
+.js-loading *,
+.js-loading *:before,
+.js-loading *:after {
+  animation-play-state: paused !important;
+}
+/*---------------------------------------------------------------------------------------  */
+
+  .intro {
     font-family: 'Anton', sans-serif;
     line-height: 1;
     letter-spacing: -1px;
   }
   
-  .ks {
+  .skills {
     font-family: 'Anton', sans-serif;
     font-size: 33px;
     text-align: cemter;
     margin-left: 10px;
     margin-bottom: 52px;
     line-height: 1;
-    /* margin-top: -11px; */
     -webkit-transition: all .6s ease-in-out;
     transition: all .6s cubic-bezier(.190, 1.000, .220, 1.000) 4.7s;
     -webkit-transform: translateX(-1000%);
@@ -20,16 +27,15 @@
     letter-spacing: -1px;
     text-transform: uppercase;
     color: #d85904;
-    /* border-top: #bebebe solid 2px; */
   }
   
-  .animate .ks {
+  .animate .skills {
     -webkit-transform: translateX(0);
     -ms-transform: translateX(0);
     transform: translateX(0);
   }
   
-  .unbreakable-text {
+  .intro-text {
     font-family: 'Anton', Helvetica, sans-serif;
     text-transform: uppercase;
     opacity: 0;
@@ -115,6 +121,8 @@
     opacity: 1;
     filter: alpha(opacity=100);
   }
+
+/* Text fade-in */
 
   .fade {
     opacity:0;
