@@ -1,14 +1,20 @@
 import React, { Component } from 'react';
+import Bounce from 'react-reveal/Bounce';
+
 export default class Portfolio extends Component {
   render() {
     return (
       <React.Fragment>
       {<section id="portfolio">
+           
   <div className="row">
+  <Bounce>
     <div className="twelve columns collapsed">
       <h1>Portfolio</h1>
       {/* portfolio-wrapper */}
+      
       <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
+      
         <div className="columns portfolio-item">
           <div className="item-wrap">
             <a href="#modal-01" title="true">
@@ -121,10 +127,14 @@ export default class Portfolio extends Component {
             </a>
           </div>
         </div>  {/* item end */}
+        
       </div> {/* portfolio-wrapper end */}
+      
     </div> {/* twelve columns end */}
+    
     {/* Modal Popup
-	      --------------------------------------------------------------- */}
+        --------------------------------------------------------------- */}
+    <div>
     <div id="modal-01" className="popup-modal mfp-hide">
       <img className="scale-with-grid" src="images/portfolio/modals/tron-link.png" alt="" />
       <div className="description-box">
@@ -221,6 +231,8 @@ export default class Portfolio extends Component {
         <a className="popup-modal-dismiss">Close</a>
       </div>
     </div>{/* modal-01 End */}
+    </div>
+    </Bounce>
   </div> {/* row End */}
 </section>
 }

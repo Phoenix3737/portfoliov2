@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import Lightspeed from 'react-reveal/LightSpeed';
+
 export default class Resume extends Component {
   render() {
     return (
@@ -38,7 +40,7 @@ export default class Resume extends Component {
                   <p className="info">Junior Developer <span>•</span> <em className="date">January 2018 - Present</em></p>
                   
                   <p className="info">Webba.com</p>
-                  <p className>Helped to develop and maintain this meta-search site.</p>
+                  <p>Helped to develop and maintain this meta-search site.</p>
                   <p>
                   Webba.com is a search engine that helps users find any information or topics on the web returning all the
                   best results from the top search engines like Google, Bing, Yahoo and many more on one page.
@@ -73,9 +75,11 @@ export default class Resume extends Component {
                 eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
                 voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
                 voluptatem sequi nesciunt.
-      </p>
+             </p>
+             <Lightspeed left cascade> 
               <div className="bars">
                 <ul className="skills">
+                {/* <Lightspeed left cascade> */}
                   <li><span className="bar-expand html5" /><em>HTML5</em></li>
                   <li><span className="bar-expand css" /><em>CSS</em></li>
                   <li><span className="bar-expand javascript" /><em>Javascript</em></li>
@@ -84,6 +88,7 @@ export default class Resume extends Component {
                   <li><span className="bar-expand jquery" /><em>jQuery</em></li>
                 </ul>
               </div>{/* end skill-bars */}
+              </Lightspeed>
             </div> {/* main-col end */}
           </div> {/* End skills */}
         </section>

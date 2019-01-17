@@ -306,7 +306,7 @@ ul#nav li.current a { color: #F06000; }
   	margin-bottom: 60px;
   	background: #ccc;
   	height: 42px;
-  	border-radius: 3px;
+   border-radius: 3px;
 }
 .bars li em {
 	font: 15px 'opensans-bold', sans-serif;
@@ -330,86 +330,127 @@ ul#nav li.current a { color: #F06000; }
    line-height: 42px;
    border-radius: 3px 0 0 3px;
 }
-
 .html5 {
    width: 90%;
    -moz-animation: html5 2s ease;
    -webkit-animation: html5 2s ease;
+}
+span.bar-expand.html5:before{
+   content: "90%";
+   color: rgb(182, 182, 182);
+   font-size: 20px;
+   vertical-align: middle;
+   margin-left: 10px;
 }
 .css {
    width: 80%;
    -moz-animation: css 2s ease;
    -webkit-animation: css 2s ease;
 }
+span.bar-expand.css:before{
+   content: "80%";
+   color: rgb(182, 182, 182);
+   font-size: 20px;
+   vertical-align: middle;
+   margin-left: 10px;
+}
 .javascript {
    width: 70%;
    -moz-animation: javascript 2s ease;
    -webkit-animation: javascript 2s ease;
+}
+span.bar-expand.javascript:before{
+   content: "70%";
+   color: rgb(182, 182, 182);
+   font-size: 20px;
+   vertical-align: middle;
+   margin-left: 10px;
 }
 .react {
    width: 60%;
    -moz-animation: react 2s ease;
    -webkit-animation: react 2s ease;
 }
+span.bar-expand.react:before{
+   content: "60%";
+   color: rgb(182, 182, 182);
+   font-size: 20px;
+   vertical-align: middle;
+   margin-left: 10px;
+}
 .photoshop {
    width: 90%;
    -moz-animation: photoshop 2s ease;
    -webkit-animation: photoshop 2s ease;
+}
+span.bar-expand.photoshop:before{
+   content: "90%";
+   color: rgb(182, 182, 182);
+   font-size: 20px;
+   vertical-align: middle;
+   margin-left: 10px;
 }
 .jquery {
    width: 70%;
    -moz-animation: jquery 2s ease;
    -webkit-animation: jquery 2s ease;
 }
+span.bar-expand.jquery:before{
+   content: "70%";
+   color: rgb(182, 182, 182);
+   font-size: 20px;
+   vertical-align: middle;
+   margin-left: 10px;
+}
 
 @-moz-keyframes html5 {
 0%   { width: 0px;  }
-100% { width: 60%;  }
+100% { width: 90%;  }
 }
 @-moz-keyframes css {
 0%   { width: 0px;  }
-100% { width: 55%;  }
+100% { width: 80%;  }
 }
 @-moz-keyframes javascript {
 0%   { width: 0px;  }
-100% { width: 50%;  }
+100% { width: 70%;  }
 }
 @-moz-keyframes react {
 0%   { width: 0px;  }
-100% { width: 90%;  }
+100% { width: 60%;  }
 }
 @-moz-keyframes photoshop {
 0%   { width: 0px;  }
-100% { width: 80%;  }
+100% { width: 90%;  }
 }
 @-moz-keyframes jquery {
 0%   { width: 0px;  }
-100% { width: 50%;  }
+100% { width: 70%;  }
 }
 
 @-webkit-keyframes html5 {
 0%   { width: 0px;  }
-100% { width: 60%;  }
+100% { width: 90%;  }
 }
 @-webkit-keyframes css {
 0%   { width: 0px;  }
-100% { width: 55%;  }
+100% { width: 80%;  }
 }
 @-webkit-keyframes javascript {
 0%   { width: 0px;  }
-100% { width: 50%;  }
+100% { width: 70%;  }
 }
 @-webkit-keyframes react {
 0%   { width: 0px;  }
-100% { width: 90%;  }
+100% { width: 60%;  }
 }
 @-webkit-keyframes photoshop {
 0%   { width: 0px;  }
-100% { width: 80%;  }
+100% { width: 90%;  }
 }
 @-webkit-keyframes jquery {
 0%   { width: 0px;  }
-100% { width: 50%;  }
+100% { width: 70%;  }
 }
 
 /* ------------------------------------------------------------------ */
@@ -532,12 +573,12 @@ ul#nav li.current a { color: #F06000; }
 }
 .popup-modal .description-box p {
 	font: 14px/24px 'opensans-regular', sans-serif;
-   color: #A1A1A1;
+   color: #111;
    margin-bottom: 12px;
 }
 .popup-modal .description-box .categories {
    font: 11px/21px 'opensans-light', sans-serif;
-   color: #A1A1A1;
+   color: #111;
    text-transform: uppercase;
    letter-spacing: 2px;
    display: block;
