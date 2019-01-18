@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Bounce from 'react-reveal/Bounce';
+import Fade from 'react-reveal/Fade';
 
 export default class Portfolio extends Component {
   render() {
@@ -8,12 +8,12 @@ export default class Portfolio extends Component {
       {<section id="portfolio">
            
   <div className="row">
-  <Bounce>
+  <Fade big>
     <div className="twelve columns collapsed">
-      <h1>Portfolio</h1>
+      {/* <h1>Portfolio</h1> */}
       {/* portfolio-wrapper */}
       
-      <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
+      <div id="portfolio-wrapper" className="bgrid-thirds s-bgrid-thirds cf">
       
         <div className="columns portfolio-item">
           <div className="item-wrap">
@@ -32,11 +32,11 @@ export default class Portfolio extends Component {
         <div className="columns portfolio-item">
           <div className="item-wrap">
             <a href="#modal-02" title="true">
-              <img alt="Sports Giphy's" src="images/portfolio/SN-link.png" />
+              <img alt="" src="images/portfolio/modals/webba-link.png" />
               <div className="overlay">
                 <div className="portfolio-item-meta">
-                  <h5>Giphy Finder</h5>
-                  <p>Javascript | API</p>
+                  <h5>Webba</h5>
+                  <p>React | Express | API</p>
                 </div>
               </div>
               <div className="link-icon"><i className="icon-plus" /></div>
@@ -74,25 +74,11 @@ export default class Portfolio extends Component {
         <div className="columns portfolio-item">
           <div className="item-wrap">
             <a href="#modal-05" title="true">
-              <img alt="" src="images/portfolio/modals/webba-link.png" />
+              <img alt="Sports Giphy's" src="images/portfolio/SN-link.png" />
               <div className="overlay">
                 <div className="portfolio-item-meta">
-                  <h5>Webba</h5>
-                  <p>React | Express | API</p>
-                </div>
-              </div>
-              <div className="link-icon"><i className="icon-plus" /></div>
-            </a>
-          </div>
-        </div> {/* item end */}
-        <div className="columns portfolio-item">
-          <div className="item-wrap">
-            <a href="#modal-06" title="true">
-              <img alt="" src="images/portfolio/girl.jpg" />
-              <div className="overlay">
-                <div className="portfolio-item-meta">
-                  <h5>Girl</h5>
-                  <p>Photography</p>
+                  <h5>Giphy Finder</h5>
+                  <p>Javascript | API</p>
                 </div>
               </div>
               <div className="link-icon"><i className="icon-plus" /></div>
@@ -113,23 +99,7 @@ export default class Portfolio extends Component {
             </a>
           </div>
         </div> {/* item end */}
-        <div className="columns portfolio-item">
-          <div className="item-wrap">
-            <a href="#modal-08" title="true">
-              <img alt="" src="images/portfolio/retrocam.jpg" />
-              <div className="overlay">
-                <div className="portfolio-item-meta">
-                  <h5>Retrocam</h5>
-                  <p>Web Development</p>
-                </div>
-              </div>
-              <div className="link-icon"><i className="icon-plus" /></div>
-            </a>
-          </div>
-        </div>  {/* item end */}
-        
       </div> {/* portfolio-wrapper end */}
-      
     </div> {/* twelve columns end */}
     
     {/* Modal Popup
@@ -148,14 +118,14 @@ export default class Portfolio extends Component {
       </div>
     </div>{/* modal-01 End */}
     <div id="modal-02" className="popup-modal mfp-hide">
-      <img className="scale-with-grid" src="images/portfolio/modals/SN-link.png" alt="" />
+      <img className="scale-with-grid" src="images/portfolio/modals/webba-link.png" alt="" />
       <div className="description-box">
-        <h4>Console</h4>
-        <p>Find giphy's of your favorite teams and atheletes.</p>
-        <span className="categories"><i className="fa fa-tag" />Javascript | API</span>
+        <h4>Webba</h4>
+        <p>A meta search engine that crawls other search engines like Google, Bing, Yahoo, Indeed and others under one search input to return the best results from each.</p>
+        <span className="categories"><i className="fa fa-tag" />React | Express | API</span>
       </div>
       <div className="link-box">
-        <a href="https://phoenix3737.github.io/Sports-Giphy/" target="_blank">Details</a>
+        <a href="http://www.webba.com" target="_blank">Details</a>
         <a className="popup-modal-dismiss">Close</a>
       </div>
     </div>{/* modal-02 End */}
@@ -184,14 +154,14 @@ export default class Portfolio extends Component {
       </div>
     </div>{/* modal-04 End */}
     <div id="modal-05" className="popup-modal mfp-hide">
-      <img className="scale-with-grid" src="images/portfolio/modals/webba-link.png" alt="" />
+      <img className="scale-with-grid" src="images/portfolio/modals/SN-link.png" alt="" />
       <div className="description-box">
-        <h4>Webba</h4>
-        <p>A meta search engine that crawls other search engines like Google, Bing, Yahoo, Indeed and others under one search input to return the best results from each.</p>
-        <span className="categories"><i className="fa fa-tag" />React | Express | API</span>
+        <h4>Console</h4>
+        <p>Find giphy's of your favorite teams and atheletes.</p>
+        <span className="categories"><i className="fa fa-tag" />Javascript | API</span>
       </div>
       <div className="link-box">
-        <a href="http://www.webba.com" target="_blank">Details</a>
+        <a href="https://phoenix3737.github.io/Sports-Giphy/" target="_blank">Details</a>
         <a className="popup-modal-dismiss">Close</a>
       </div>
     </div>{/* modal-05 End */}
@@ -232,7 +202,7 @@ export default class Portfolio extends Component {
       </div>
     </div>{/* modal-01 End */}
     </div>
-    </Bounce>
+    </Fade>
   </div> {/* row End */}
 </section>
 }

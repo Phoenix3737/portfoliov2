@@ -23,11 +23,16 @@ export default class Testimonials extends Component {
             </li> {/* slide ends */}
             <li>
               <blockquote>
-                <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
-                  Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem
-                  nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.
+                <p>If you would not be forgotten, as soon as you are dead and rotten, either write things worth reading, or do things worth the writing.  
                 </p>
-                <cite>Mr. Adobe</cite>
+                <cite>Benjamin Franklin</cite>
+              </blockquote>
+            </li> {/* slide ends */}
+            <li>
+              <blockquote>
+                <p>You gain strength, courage and confidence by every experience in which you really stop to look fear in the face. You must do the thing you think you cannot do.  
+                </p>
+                <cite>Elanor Roosevelt</cite>
               </blockquote>
             </li> {/* slide ends */}
           </ul>
