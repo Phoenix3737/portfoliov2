@@ -278,6 +278,24 @@ ul#nav li.current a { color: #F06000; }
    margin-bottom: 18px;
    margin-top: 9px;
 }
+#resume .projectsHeader {
+   font: serif;
+   /* font-weight: bolder; */
+   font-size: 22px;
+   color: #6E7881;
+   margin-bottom: 14px;
+}
+#resume .projectName {
+   font: serif;
+   font-size: 20px;   color: #6E7881;
+   margin-bottom: 14px;
+}
+#resume .projectDescription {
+   margin-bottom: 14px;
+}
+#resume .projectDescriptionLast {
+   margin-bottom: 40px;
+}
 #resume .info span {
    margin-right: 5px;
    margin-left: 5px;
@@ -367,12 +385,12 @@ span.bar-expand.javascript:before{
    margin-left: 10px;
 }
 .react {
-   width: 60%;
+   width: 70%;
    -moz-animation: react 2s ease;
    -webkit-animation: react 2s ease;
 }
 span.bar-expand.react:before{
-   content: "60%";
+   content: "70%";
    color: rgb(182, 182, 182);
    font-size: 20px;
    vertical-align: middle;
@@ -417,7 +435,7 @@ span.bar-expand.jquery:before{
 }
 @-moz-keyframes react {
 0%   { width: 0px;  }
-100% { width: 60%;  }
+100% { width: 70%;  }
 }
 @-moz-keyframes photoshop {
 0%   { width: 0px;  }
@@ -442,7 +460,7 @@ span.bar-expand.jquery:before{
 }
 @-webkit-keyframes react {
 0%   { width: 0px;  }
-100% { width: 60%;  }
+100% { width: 70%;  }
 }
 @-webkit-keyframes photoshop {
 0%   { width: 0px;  }

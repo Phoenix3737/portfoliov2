@@ -51,13 +51,13 @@ export default class Resume extends Component {
                   </div>
                   <div>
                     <p className="projectName">MLB Query</p>
-                    <p className="projectDescription">Helped to develop and maintain this meta-search site.</p>
+                    <p className="projectDescription">Made map component that zooms in on currently selected stadium.</p>
                     <p className="projectDescription">
-                      MLB Query is a search engine that helps users find any information or topics on the web returning all the
-                      best results from the top search engines like Google, Bing, Yahoo and many more on one page.
+                      MLB Query is a predictive analysis tool. It allows the user to make predictions on current 
+                      baseball games based on the historical impact of like weather conditions and locations.
                       </p>
                     <p className="projectDescriptionLast">
-                      Technologies used: React, Redux, CSS Modules, HTML and Node.
+                      Technologies used: Google Maps API, React, CSS Modules, HTML, Node and MySQL.
                       </p>
                   </div>{/* item end */}
                   <div>

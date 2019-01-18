@@ -530,10 +530,11 @@ span.bar-expand.jquery:before{
    display: block;
    color: #fff;
    height: 30px;
-   width: 30px;
+   width: 200px;
    font-size: 18px;
    line-height: 30px;
    text-align: center;
+   /* margin-left: 0px; */
 
    opacity: 0;
 	-moz-opacity: 0;
@@ -546,7 +547,7 @@ span.bar-expand.jquery:before{
 
    position: absolute;
    top: 50%;
-   left: 50%;
+   left: 22%;
    margin-left: -15px;
    margin-top: -15px;
 }
@@ -618,9 +619,20 @@ span.bar-expand.jquery:before{
    cursor: pointer;
 }
 .popup-modal a:hover {	color: #00CCCC; }
-.popup-modal a.popup-modal-dismiss { margin-left: 24px; }
+.popup-modal a.popup-modal-dismiss { margin-left: 2px; }
 
-
+.centered {
+   color: rgb(202, 202, 202);
+	font: 20px/21px 'opensans-bold', sans-serif;
+	text-transform: uppercase;
+   letter-spacing: 3px;
+   cursor: pointer;
+   position: absolute;
+   top: 60%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+ }
+ 
 /* fadein/fadeout effect for modal popup
 /* ------------------------------------------------------------------ */
 
