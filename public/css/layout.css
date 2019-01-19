@@ -579,7 +579,7 @@ span.bar-expand.jquery:before{
 
 /* popup modal */
 .popup-modal {
-	max-width: 550px;
+	max-width: 500px;
 	background: #fff;
 	position: relative;
 	margin: 0 auto;

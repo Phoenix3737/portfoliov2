@@ -288,7 +288,7 @@ hr { border: solid #E3E3E3; border-width: 1px 0 0; clear: both; margin: 11px 0 3
 a, a:visited {
    text-decoration: none;
    outline: 0;
-   color: #11ABB0;
+   /* color: #11ABB0; */
 
    -webkit-transition: color .3s ease-in-out;
    -moz-transition: color .3s ease-in-out;
@@ -464,14 +464,14 @@ input[type="submit"],
 input[type="reset"],
 input[type="button"] {
    font: 16px/30px 'opensans-bold', sans-serif;
-   background: #11ABB0;
+   background: #000;
+   border: 2px solid white;
    display: inline-block;
 	text-decoration: none;
    letter-spacing: 0;
    color: #fff;
 	padding: 12px 20px;
 	margin-bottom: 18px;
-   border: none;
    cursor: pointer;
    height: auto;
 
@@ -492,7 +492,7 @@ button:hover,
 input[type="submit"]:hover,
 input[type="reset"]:hover,
 input[type="button"]:hover {
-   background: #3d4145;
+   background: rgb(20, 20, 20);
    color: #fff;
 }
 

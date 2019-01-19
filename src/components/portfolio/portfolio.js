@@ -17,7 +17,7 @@ export default class Portfolio extends Component {
       
         <div className="columns portfolio-item">
           <div className="item-wrap">
-            <a href="#modal-01" title="true">
+            <a href="#modal-01" >
               <img alt="Tron Triva" src="images/portfolio/tron-link.png" />
               <div className="overlay">
                 <div className="portfolio-item-meta">
@@ -31,7 +31,7 @@ export default class Portfolio extends Component {
         </div> {/* item end */}
         <div className="columns portfolio-item">
           <div className="item-wrap">
-            <a href="#modal-02" title="true">
+            <a href="#modal-02" >
               <img alt="" src="images/portfolio/modals/webba-link.png" />
               <div className="overlay">
                 <div className="portfolio-item-meta">
@@ -45,7 +45,7 @@ export default class Portfolio extends Component {
         </div> {/* item end */}
         <div className="columns portfolio-item">
           <div className="item-wrap">
-            <a href="#modal-03" title="true">
+            <a href="#modal-03" >
               <img alt="Game of Thrones Hangman" src="images/portfolio/got-link.png" />
               <div className="overlay">
                 <div className="portfolio-item-meta">
@@ -59,7 +59,7 @@ export default class Portfolio extends Component {
         </div> {/* item end */}
         <div className="columns portfolio-item">
           <div className="item-wrap">
-            <a href="#modal-04" title="true">
+            <a href="#modal-04" >
               <img alt="Virtual Bartender" src="images/portfolio/mood-shot-link.png" />
               <div className="overlay">
                 <div className="portfolio-item-meta">
@@ -73,7 +73,7 @@ export default class Portfolio extends Component {
         </div> {/* item end */}
         <div className="columns portfolio-item">
           <div className="item-wrap">
-            <a href="#modal-05" title="true">
+            <a href="#modal-05" >
               <img alt="Sports Giphy's" src="images/portfolio/SN-link.png" />
               <div className="overlay">
                 <div className="portfolio-item-meta">
@@ -87,12 +87,12 @@ export default class Portfolio extends Component {
         </div> {/* item end */}
         <div className="columns portfolio-item">
           <div className="item-wrap">
-            <a href="#modal-07" title="true">
-              <img alt="" src="images/portfolio/origami.jpg" />
+            <a href="#modal-06" >
+              <img alt="" src="images/portfolio/mlbq-link.png" />
               <div className="overlay">
                 <div className="portfolio-item-meta">
-                  <h5>Origami</h5>
-                  <p>Illustrration</p>
+                  <h5>MLB Query</h5>
+                  <p>React</p>
                 </div>
               </div>
               <div ><h2 className="link-icon">Learn More</h2></div>
@@ -184,7 +184,7 @@ export default class Portfolio extends Component {
       </div>
 
       <div className="description-box">
-        <h4>Console</h4>
+        <h4>Game</h4>
         <p>Find giphy's of your favorite teams and atheletes.</p>
         <span className="categories"><i className="fa fa-tag" />Javascript | API</span>
       </div>
@@ -192,42 +192,27 @@ export default class Portfolio extends Component {
         <a className="popup-modal-dismiss">Close</a>
       </div>
     </div>{/* modal-05 End */}
+
     <div id="modal-06" className="popup-modal mfp-hide">
-      <img className="scale-with-grid" src="images/portfolio/modals/m-girl.jpg" alt="" />
+
+    <div className="img-box">
+      <img className="scale-with-grid" src="images/portfolio/modals/mlbq-link.png" alt=""  />
+      <form className="centered" action="" target="_blank">
+        <button type="submit">View Site</button>
+      </form>
+      </div>
+
       <div className="description-box">
-        <h4>Girl</h4>
-        <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-        <span className="categories"><i className="fa fa-tag" />Photography</span>
+        <h4></h4>
+        <p>Predict the outcome of MLB games.</p>
+        <span className="categories"><i className="fa fa-tag" />React | Javascript |Google Maps API</span>
       </div>
       <div className="link-box">
-        <a href="http://www.behance.net">View Site</a>
         <a className="popup-modal-dismiss">Close</a>
       </div>
     </div>{/* modal-06 End */}
-    <div id="modal-07" className="popup-modal mfp-hide">
-      <img className="scale-with-grid" src="images/portfolio/modals/m-origami.jpg" alt="" />
-      <div className="description-box">
-        <h4>Origami</h4>
-        <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-        <span className="categories"><i className="fa fa-tag" />Branding, Illustration</span>
-      </div>
-      <div className="link-box">
-        <a href="http://www.behance.net">View Site</a>
-        <a className="popup-modal-dismiss">Close</a>
-      </div>
-    </div>{/* modal-07 End */}
-    <div id="modal-08" className="popup-modal mfp-hide">
-      <img className="scale-with-grid" src="images/portfolio/modals/m-retrocam.jpg" alt="" />
-      <div className="description-box">
-        <h4>Retrocam</h4>
-        <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-        <span className="categories"><i className="fa fa-tag" />Webdesign, Photography</span>
-      </div>
-      <div className="link-box">
-        <a href="http://www.behance.net">View Site</a>
-        <a className="popup-modal-dismiss">Close</a>
-      </div>
-    </div>{/* modal-01 End */}
+    
+    
     </div>
     </Fade>
   </div> {/* row End */}
