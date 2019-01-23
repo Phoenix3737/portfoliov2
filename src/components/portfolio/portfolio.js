@@ -22,7 +22,7 @@ export default class Portfolio extends Component {
               <div className="overlay">
                 <div className="portfolio-item-meta">
                   <h5>Game</h5>
-                  <p>Javascript</p>
+                  <p>jQuery | Express</p>
                 </div>
               </div>
               <div ><h2 className="link-icon">Learn More</h2></div>
@@ -108,7 +108,7 @@ export default class Portfolio extends Component {
     <div id="modal-01" className="popup-modal mfp-hide">
       <div className="img-box">
       <img className="scale-with-grid" src="images/portfolio/modals/tron-link.png" alt=""  />
-      <form className="centered" action="https://phoenix3737.github.io/TriviaGame/" target="_blank">
+      <form className="centered" action="https://tron-trivia.herokuapp.com/" target="_blank">
         <button type="submit">View Site</button>
       </form>
     
@@ -116,7 +116,7 @@ export default class Portfolio extends Component {
       <div className="description-box">
         <h4>Tron Trivia</h4>
         <p>Test your knowledge of the classic sci-fi film Tron.</p>
-        <span className="categories"><i className="fa fa-tag" />Javascript</span>
+        <span className="categories"><i className="fa fa-tag" />JQuery | Express</span>
       </div>
       <div className="link-box">
         <a className="popup-modal-dismiss">Close</a>

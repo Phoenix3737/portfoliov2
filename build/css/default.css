@@ -464,7 +464,7 @@ input[type="submit"],
 input[type="reset"],
 input[type="button"] {
    font: 16px/30px 'opensans-bold', sans-serif;
-   background: #000;
+   background: rgb(0, 0, 0, .8);
    border: 2px solid white;
    display: inline-block;
 	text-decoration: none;
@@ -484,7 +484,7 @@ input[type="button"] {
    -moz-border-radius: 3px;
    -webkit-border-radius: 3px;
    -khtml-border-radius: 3px;
-   border-radius: 3px;
+   border-radius: 12px;
 }
 
 .button:hover,
